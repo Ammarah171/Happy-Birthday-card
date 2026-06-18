@@ -21,12 +21,13 @@ function App() {
         </div>
       ) : (
         <div style={styles.card}>
-          {/* Added Image Tag */}
-          <img 
-            src="/mom.jpg" 
-            alt="Mom" 
-            style={{ width: '150px', height: '150px', borderRadius: '50%', objectFit: 'cover', marginBottom: '20px', border: '4px solid #ff69b4' }} 
-          />
+  {/* Added Image Tag with Fixed Path */}
+  <img 
+    src={`${import.meta.env.BASE_URL}mom.jpg`} 
+    alt="Mom" 
+    style={{ width: '150px', height: '150px', borderRadius: '50%', objectFit: 'cover', marginBottom: '20px', border: '4px solid #ff69b4' }} 
+  />
+    
           {/* Confetti Elements */}
           <div style={styles.confettiContainer}>
             {[...Array(15)].map((_, i) => (
