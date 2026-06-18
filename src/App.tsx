@@ -101,12 +101,12 @@ const styles: { [key: string]: React.CSSProperties } = {
   },
   heading: {
     color: '#ff1493',
-    fontSize: '2.5rem',
+    fontSize: '1.8rem',
     marginBottom: '20px',
   },
   message: {
     color: '#444',
-    fontSize: '1.25rem',
+    fontSize: '1.05rem',
     lineHeight: '1.7',
   },
   balloon: {
